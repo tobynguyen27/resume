@@ -1,0 +1,36 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "oxlint --type-aware --type-check",
+		"lint:fix": "oxlint --fix",
+		"format": "oxfmt",
+		"generate-pdf": "node ./scripts/generate-pdf.ts"
+	},
+	"dependencies": {
+		"vue": "catalog:frontend"
+	},
+	"devDependencies": {
+		"@cloudflare/vite-plugin": "catalog:build",
+		"@iconify-json/carbon": "catalog:frontend",
+		"@types/node": "catalog:types",
+		"@vitejs/plugin-vue": "catalog:build",
+		"@vue/tsconfig": "catalog:types",
+		"lefthook": "catalog:script",
+		"oxfmt": "catalog:lint",
+		"oxlint": "catalog:lint",
+		"oxlint-tsgolint": "catalog:lint",
+		"puppeteer": "catalog:build",
+		"typescript": "catalog:types",
+		"unocss": "catalog:frontend",
+		"vite": "catalog:build",
+		"wrangler": "catalog:build"
+	},
+	"engines": {
+		"node": ">=22"
+	},
+	"packageManager": "pnpm@10.30.3"
+}

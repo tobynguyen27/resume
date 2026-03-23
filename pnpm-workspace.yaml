@@ -1,0 +1,28 @@
+catalogs:
+  build:
+    "@vitejs/plugin-vue": ^6.0.5
+    puppeteer: ^24.40.0
+    vite: ^8.0.1
+    "@cloudflare/vite-plugin": "^1.30.0"
+    wrangler: "^4.76.0"
+  frontend:
+    "@iconify-json/carbon": ^1.2.19
+    unocss: ^66.6.7
+    vue: ^3.5.30
+  lint:
+    oxfmt: ^0.41.0
+    oxlint: ^1.56.0
+    oxlint-tsgolint: ^0.17.1
+  script:
+    lefthook: ^2.1.4
+  types:
+    "@types/node": ^24.12.0
+    "@vue/tsconfig": ^0.9.0
+    typescript: ~5.9.3
+
+onlyBuiltDependencies:
+  - esbuild
+  - lefthook
+  - puppeteer
+  - sharp
+  - workerd
