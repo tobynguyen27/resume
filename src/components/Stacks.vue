@@ -9,11 +9,11 @@ type Category = {
 const categories: Category[] = [
 	{
 		name: "Frontend",
-		content: "React, Next, Vue, Nuxt, TypeScript, Vite, UnoCSS",
+		content: "React, Next, Vue, Nuxt, Vite, UnoCSS",
 	},
 	{
 		name: "Backend",
-		content: "Kotlin, SpringBoot, PostgreSQL, Serverless, Docker",
+		content: "SpringBoot, PostgreSQL, Docker",
 	},
 	{
 		name: "Mobile",
@@ -21,11 +21,11 @@ const categories: Category[] = [
 	},
 	{
 		name: "DevOps",
-		content: "AWS, Supabase, Vercel",
+		content: "AWS, Supabase, Vercel, Cloudflare",
 	},
 	{
 		name: "Languages",
-		content: "Java, C#",
+		content: "TypeScript, Kotlin, Java, C#",
 	},
 ];
 </script>
