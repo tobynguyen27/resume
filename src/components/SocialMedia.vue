@@ -11,7 +11,7 @@ const socialMedia: Social[] = [
 	},
 	{
 		icon: "i-carbon-logo-x",
-		link: "https://x.com/imtobynguyen",
+		link: "https://x.com/iamtobynguyen",
 	},
 	{
 		icon: "i-carbon-logo-linkedin",
