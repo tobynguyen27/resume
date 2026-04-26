@@ -3,12 +3,11 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vp dev",
-		"build": "vp build",
 		"preview": "vp preview",
 		"lint": "vp lint",
 		"lint:fix": "vp lint --fix",
 		"format": "vp fmt",
-		"generate-pdf": "node ./scripts/generate-pdf.ts"
+		"generate-pdf": "jiti ./scripts/generate-pdf.ts"
 	},
 	"dependencies": {
 		"vue": "catalog:frontend"
@@ -19,6 +18,7 @@
 		"@types/node": "catalog:types",
 		"@vitejs/plugin-vue": "catalog:build",
 		"@vue/tsconfig": "catalog:types",
+		"jiti": "catalog:build",
 		"puppeteer": "catalog:build",
 		"typescript": "catalog:types",
 		"unocss": "catalog:frontend",

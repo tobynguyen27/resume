@@ -1,6 +1,7 @@
 catalogs:
   build:
     '@vitejs/plugin-vue': ^6.0.5
+    jiti: ^2.6.1
     puppeteer: ^24.40.0
     vite: npm:@voidzero-dev/vite-plus-core@latest
     vitest: npm:@voidzero-dev/vite-plus-test@latest

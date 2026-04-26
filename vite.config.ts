@@ -27,4 +27,13 @@ export default defineConfig({
 		],
 	},
 	plugins: [Vue(), UnoCSS(), cloudflare()],
+	run: {
+		cache: false,
+		tasks: {
+			build: {
+				command: 'vp build',
+				dependsOn: ['generate-pdf'],
+			},
+		},
+	},
 });
