@@ -2,12 +2,8 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"dev": "vp dev",
-		"preview": "vp preview",
-		"lint": "vp lint",
-		"lint:fix": "vp lint --fix",
-		"format": "vp fmt",
-		"generate-pdf": "jiti ./scripts/generate-pdf.ts"
+		"generate-pdf": "jiti ./scripts/generate-pdf.ts",
+		"prepare": "vp config"
 	},
 	"dependencies": {
 		"vue": "catalog:frontend"
