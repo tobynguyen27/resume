@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Link from "./base/Link.vue";
-import Section from "./base/Section.vue";
+import Link from './base/Link.vue';
+import Section from './base/Section.vue';
 </script>
 
 <template>

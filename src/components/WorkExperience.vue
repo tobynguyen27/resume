@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Section from "./base/Section.vue";
+import Section from './base/Section.vue';
 
 type Work = {
 	name: string;
@@ -11,11 +11,11 @@ type Work = {
 
 const works: Work[] = [
 	{
-		name: "Open Source",
-		role: "OSS Developer",
-		since: "April, 2025 - Present",
-		place: "GitHub",
-		details: ["Received 500,000+ downloads on my Minecraft mods."],
+		name: 'Open Source',
+		role: 'OSS Developer',
+		since: 'April, 2025 - Present',
+		place: 'GitHub',
+		details: ['Received 500,000+ downloads on my Minecraft mods.'],
 	},
 ];
 </script>

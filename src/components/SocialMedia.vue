@@ -6,20 +6,20 @@ type Social = {
 
 const socialMedia: Social[] = [
 	{
-		icon: "i-carbon-logo-github",
-		link: "https://github.com/tobynguyen27",
+		icon: 'i-carbon-logo-github',
+		link: 'https://github.com/tobynguyen27',
 	},
 	{
-		icon: "i-carbon-logo-x",
-		link: "https://x.com/iamtobynguyen",
+		icon: 'i-carbon-logo-x',
+		link: 'https://x.com/iamtobynguyen',
 	},
 	{
-		icon: "i-carbon-logo-linkedin",
-		link: "https://linkedin.com/in/imtobynguyen",
+		icon: 'i-carbon-logo-linkedin',
+		link: 'https://linkedin.com/in/imtobynguyen',
 	},
 	{
-		icon: "i-carbon-user-avatar-filled",
-		link: "https://tobynguyen.net",
+		icon: 'i-carbon-user-avatar-filled',
+		link: 'https://tobynguyen.net',
 	},
 ];
 </script>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Section from "./base/Section.vue";
+import Section from './base/Section.vue';
 
 type Category = {
 	name: string;
@@ -8,24 +8,24 @@ type Category = {
 
 const categories: Category[] = [
 	{
-		name: "Frontend",
-		content: "React, Next, Vue, Nuxt, Vite, UnoCSS",
+		name: 'Frontend',
+		content: 'React, Next, Vue, Nuxt, Vite, UnoCSS',
 	},
 	{
-		name: "Backend",
-		content: "SpringBoot, PostgreSQL, Docker",
+		name: 'Backend',
+		content: 'SpringBoot, PostgreSQL, Docker',
 	},
 	{
-		name: "Mobile",
-		content: "React Native",
+		name: 'Mobile',
+		content: 'React Native',
 	},
 	{
-		name: "DevOps",
-		content: "AWS, Supabase, Vercel, Cloudflare",
+		name: 'DevOps',
+		content: 'AWS, Supabase, Vercel, Cloudflare',
 	},
 	{
-		name: "Languages",
-		content: "TypeScript, Kotlin, Java, C#",
+		name: 'Languages',
+		content: 'TypeScript, Kotlin, Java, C#',
 	},
 ];
 </script>

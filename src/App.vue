@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import AboutMe from "./components/AboutMe.vue";
-import Link from "./components/base/Link.vue";
-import Languages from "./components/Languages.vue";
-import Projects from "./components/Projects.vue";
-import SocialMedia from "./components/SocialMedia.vue";
-import Stacks from "./components/Stacks.vue";
-import WorkExperience from "./components/WorkExperience.vue";
+import AboutMe from './components/AboutMe.vue';
+import Link from './components/base/Link.vue';
+import Languages from './components/Languages.vue';
+import Projects from './components/Projects.vue';
+import SocialMedia from './components/SocialMedia.vue';
+import Stacks from './components/Stacks.vue';
+import WorkExperience from './components/WorkExperience.vue';
 </script>
 
 <template>

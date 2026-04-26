@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Section from "./base/Section.vue";
+import Section from './base/Section.vue';
 
 type Project = {
 	name: string;
@@ -9,9 +9,9 @@ type Project = {
 
 const projects: Project[] = [
 	{
-		name: "Solitar",
-		description: "An URL shortener",
-		link: "https://github.com/solitar-dev/code",
+		name: 'Solitar',
+		description: 'An URL shortener',
+		link: 'https://github.com/solitar-dev/code',
 	},
 ];
 </script>
