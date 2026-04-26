@@ -9,7 +9,7 @@ type Category = {
 const categories: Category[] = [
 	{
 		name: 'Frontend',
-		content: 'React, Next, Vue, Nuxt, Vite, UnoCSS',
+		content: 'React, Next, Vue, Nuxt, Qwik, QwikCity, Vite, UnoCSS',
 	},
 	{
 		name: 'Backend',
