@@ -1,10 +1,10 @@
 {
-	"oxc.fmt.configPath": ".oxfmtrc.json",
-	"oxc.typeAware": true,
-
 	"editor.defaultFormatter": "oxc.oxc-vscode",
+	"oxc.fmt.configPath": "./vite.config.ts",
 	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
 	"editor.codeActionsOnSave": {
-		"source.fixAll.oxc": "always"
-	}
+		"source.fixAll.oxc": "explicit"
+	},
+	"js/ts.tsdk.path": "node_modules/typescript/lib"
 }
