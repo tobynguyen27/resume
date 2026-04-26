@@ -3,7 +3,8 @@
 	"type": "module",
 	"scripts": {
 		"generate-pdf": "jiti ./scripts/generate-pdf.ts",
-		"prepare": "vp config"
+		"prepare": "vp config",
+		"build": "vp build"
 	},
 	"dependencies": {
 		"vue": "catalog:frontend"
