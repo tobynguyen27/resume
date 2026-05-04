@@ -4,7 +4,8 @@
 	"scripts": {
 		"generate-pdf": "jiti ./scripts/generate-pdf.ts",
 		"prepare": "vp config",
-		"build": "vp build"
+		"build": "vp build",
+		"up": "taze"
 	},
 	"dependencies": {
 		"vue": "catalog:frontend"
@@ -15,8 +16,9 @@
 		"@types/node": "catalog:types",
 		"@vitejs/plugin-vue": "catalog:build",
 		"@vue/tsconfig": "catalog:types",
-		"jiti": "catalog:build",
-		"puppeteer": "catalog:build",
+		"jiti": "catalog:dev",
+		"puppeteer": "catalog:dev",
+		"taze": "catalog:dev",
 		"typescript": "catalog:types",
 		"unocss": "catalog:frontend",
 		"vite": "catalog:build",
@@ -26,5 +28,5 @@
 	"engines": {
 		"node": ">=22"
 	},
-	"packageManager": "pnpm@10.30.3"
+	"packageManager": "pnpm@10.33.2"
 }

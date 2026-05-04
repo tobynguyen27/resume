@@ -1,21 +1,23 @@
 catalogs:
   build:
-    '@vitejs/plugin-vue': ^6.0.5
-    jiti: ^2.6.1
-    puppeteer: ^24.40.0
+    '@vitejs/plugin-vue': ^6.0.6
     vite: npm:@voidzero-dev/vite-plus-core@latest
     vitest: npm:@voidzero-dev/vite-plus-test@latest
     vite-plus: latest
-    '@cloudflare/vite-plugin': '^1.30.0'
-    wrangler: '^4.76.0'
+    '@cloudflare/vite-plugin': '^1.35.0'
+    wrangler: '^4.87.0'
   frontend:
-    '@iconify-json/carbon': ^1.2.19
-    unocss: ^66.6.7
-    vue: ^3.5.30
+    '@iconify-json/carbon': ^1.2.20
+    unocss: ^66.6.8
+    vue: ^3.5.33
   types:
-    '@types/node': ^24.12.0
-    '@vue/tsconfig': ^0.9.0
+    '@types/node': ^24.12.2
+    '@vue/tsconfig': ^0.9.1
     typescript: ~5.9.3
+  dev:
+    taze: ^19.11.0
+    jiti: ^2.6.1
+    puppeteer: ^24.42.0
 
 onlyBuiltDependencies:
   - esbuild
