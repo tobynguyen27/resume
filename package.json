@@ -11,7 +11,6 @@
 		"vue": "catalog:frontend"
 	},
 	"devDependencies": {
-		"@cloudflare/vite-plugin": "catalog:build",
 		"@iconify-json/carbon": "catalog:frontend",
 		"@types/node": "catalog:types",
 		"@vitejs/plugin-vue": "catalog:build",
