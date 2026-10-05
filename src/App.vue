@@ -6,9 +6,12 @@ import Projects from './components/Projects.vue';
 import SocialMedia from './components/SocialMedia.vue';
 import Stacks from './components/Stacks.vue';
 import WorkExperience from './components/WorkExperience.vue';
+
+import { Analytics } from '@vercel/analytics/vue';
 </script>
 
 <template>
+	<Analytics />
 	<div class="w-full max-w-6xl mx-auto">
 		<div class="mt-5 flex flex-col md:flex-row p-5 justify-center gap-12">
 			<div
