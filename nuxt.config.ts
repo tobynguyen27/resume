@@ -19,6 +19,10 @@ export default defineNuxtConfig({
     preset: 'vercel',
   },
 
+  vue: {
+    vapor: true,
+  },
+
   // Nuxt module config
   scripts: {
     registry: {

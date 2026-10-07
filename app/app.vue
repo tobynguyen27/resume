@@ -1,3 +1,5 @@
+<script setup lang="ts" vapor></script>
+
 <template>
   <div class="w-full max-w-6xl mx-auto">
     <div class="mt-5 flex flex-col md:flex-row p-5 justify-center gap-12">
