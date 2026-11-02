@@ -15,8 +15,8 @@
           </p>
         </div>
         <div class="">
-          <NuxtLink to="mailto:work@tobynguyen.net" class="link">
-            work@tobynguyen.net
+          <NuxtLink to="mailto:contact@tobyngn.com" class="link">
+            contact@tobyngn.com
           </NuxtLink>
         </div>
         <SocialMedia />

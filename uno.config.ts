@@ -41,7 +41,7 @@ export default defineConfig({
     colors,
     font: {
       sans: 'Geist',
-      serif: 'IBM Plex Serif',
+      serif: 'Geist Serif',
     },
   },
   shortcuts: {

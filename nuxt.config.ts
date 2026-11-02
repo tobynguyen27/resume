@@ -11,12 +11,19 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/hints',
     '@nuxt/a11y',
-    '@vercel/speed-insights',
     '@nuxtjs/seo',
   ],
 
   nitro: {
-    preset: 'vercel',
+    preset: 'cloudflare-module',
+    cloudflare: {
+      deployConfig: true,
+      wrangler: {
+        name: 'personal-resume',
+        workers_dev: false,
+        preview_urls: false,
+      },
+    },
   },
 
   vue: {
@@ -39,9 +46,9 @@ export default defineNuxtConfig({
   },
 
   fonts: {
+    provider: 'local',
     defaults: {
-      weights: ['400 600'],
-      styles: ['normal'],
+      weights: [400, 600],
     },
   },
 
@@ -54,7 +61,7 @@ export default defineNuxtConfig({
   // SEO
   site: {
     name: 'Toby Nguyen - Résumé',
-    url: 'https://resume.tobynguyen.net',
+    url: 'https://resume.tobyngn.com',
   },
   robots: {
     blockNonSeoBots: true,
