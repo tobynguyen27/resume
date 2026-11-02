@@ -19,7 +19,7 @@ const socialMedia: Social[] = [
   },
   {
     icon: 'i-carbon-user-avatar-filled',
-    link: 'https://tobynguyen.net',
+    link: 'https://tobyngn.com',
   },
 ]
 </script>
