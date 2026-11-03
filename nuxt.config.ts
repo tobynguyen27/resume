@@ -3,6 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
 
+  routeRules: {
+    '/': {
+      prerender: true,
+    },
+  },
+
   modules: [
     '@nuxt/eslint',
     '@nuxt/fonts',
