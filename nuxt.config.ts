@@ -72,4 +72,13 @@ export default defineNuxtConfig({
   ogImage: {
     enabled: false,
   },
+  skewProtection: {
+    enabled: false,
+  },
+  aiReady: {
+    enabled: false,
+  },
+  schemaOrg: {
+    enabled: false,
+  },
 })
