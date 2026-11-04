@@ -18,7 +18,6 @@ export default defineNuxtConfig({
     '@nuxt/hints',
     '@nuxt/a11y',
     '@nuxtjs/seo',
-    '@nuxtjs/partytown',
   ],
 
   nitro: {
@@ -41,9 +40,8 @@ export default defineNuxtConfig({
   scripts: {
     registry: {
       cloudflareWebAnalytics: {
-        token: '9f9851e2882c483fa10750eaaf3fbb69',
+        token: '3c268724fe3b4a2cb077d840a9b0595c',
         trigger: 'onNuxtReady',
-        partytown: true,
       },
     },
   },
